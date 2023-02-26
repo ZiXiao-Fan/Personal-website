@@ -1,6 +1,7 @@
 :root {
     --color-heading: #178bd8;
     --color-background:#000;
+    --color-content:#b9c3cf;
 }
 
 body{
@@ -38,15 +39,13 @@ p{
   padding: 3rem 5rem;
   clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
 }
-.tilte--container{
-    
-}
+
 .title__heading{
     font-size: 4rem;
     text-align: center;   
 }
 .title__content{
-    color: #b9c3cf;
+    color: var(--color-content);
     text-align: center;   
 }
 .background--heading{
@@ -54,7 +53,12 @@ p{
 }
 /* Testimonial and card*/
 .testimonial{
-   margin: 3rem 3rem; 
+    margin: 2rem;
+   margin-top: 10rem;
+   
+}
+.testimonial .title__heading{
+    color: #1b0760;
 }
 .card{
     padding: 2rem 4rem;
@@ -72,9 +76,12 @@ p{
    
 }
 .intro__aboutme{
-    color: black;
+    color: #1b0760;
     font-size: 3rem;
 }
 .title--aboutme{
     font-size: 2rem;
+}
+.intro__content{
+    color: #9e9aac;
 }
