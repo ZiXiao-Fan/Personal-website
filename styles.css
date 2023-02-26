@@ -1,0 +1,80 @@
+:root {
+    --color-heading: #178bd8;
+    --color-background:#000;
+}
+
+body{
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3 {
+  color: whitesmoke;
+}
+
+p{
+    font-size: 2rem;
+}
+
+
+/* grid */
+.grid{
+    display: grid;
+}
+@media screen and (min-width: 768px){
+    .grid--1x2{
+     grid-template-columns: repeat(2,1fr);
+    }
+ }
+/* Hero */
+.hero{
+  align-items: center;
+  background: var(--color-background);
+  padding: 3rem 5rem;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+.tilte--container{
+    
+}
+.title__heading{
+    font-size: 4rem;
+    text-align: center;   
+}
+.title__content{
+    color: #b9c3cf;
+    text-align: center;   
+}
+.background--heading{
+    width: 100%;  
+}
+/* Testimonial and card*/
+.testimonial{
+   margin: 3rem 3rem; 
+}
+.card{
+    padding: 2rem 4rem;
+    border-radius:7px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    align-items: center;
+   
+}
+.guitarPlaying{
+    width: 100%;
+    max-width: 500px;
+}
+.self-intro{
+    text-align: center;
+   
+}
+.intro__aboutme{
+    color: black;
+    font-size: 3rem;
+}
+.title--aboutme{
+    font-size: 2rem;
+}
