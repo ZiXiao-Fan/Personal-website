@@ -165,5 +165,21 @@ p{
     cursor: pointer;
 }
 
+/* buttons */
+.button{
+    padding: 1.5rem 4rem;
+    border-radius: 40px;
+    background: white;
+    transition: background 0.2s;
+}
+.button--play:hover{
+background: #818CF8;
+}
 
+/* swap project layout */
+@media screen and (min-width: 768px) {
+    .project:nth-of-type(even) .self-intro {
+      order: 1;
+    }
+  }
 
